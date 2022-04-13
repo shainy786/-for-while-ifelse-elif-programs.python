@@ -1,0 +1,57 @@
+# n=int(input("enter any number:"))
+# for i in range(n):
+#  print(i) 
+#  print(i) 
+#  print(i) 
+#  print(i)
+#  print("the loop has been executed") 
+
+
+# n=int(input("enter any number:"))
+# for i in range(n):
+# print(i,end=" ")                             #0 1 2 3 4 5 6 7 8            if n=9
+                              
+# n=int(input("enter any number:"))
+# for i in range(2,n):
+#     print(i,end=" ")                               #2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19    if n=20
+
+# n=int(input("enter any number:"))
+# for i in range(2,n,2):
+#     print(i,end=" ")                               #2 4 6 8 10 12 14 16 18           if n=20
+
+# n=int(input("enter any number:"))
+# for i in range(2,n,3):
+#     print(i,end=" ")                                # 2 5 8 11 14 17             if n=20
+
+# n=int(input("enter any number:"))
+# for i in range(1,n,1):
+#     print(i,end=" ")                                # 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+
+# n=int(input("enter any number:"))
+# for i in range(n):
+#  print( "hello",i,end=" ")                # hello 0 hello 1 hello 2 hello 3 hello 4 hello 5 hello 6 hello 7 hello 8  
+
+# '''to check number is even or odd'''
+# n=int(input("enter any number:"))
+# if(n%2==0):
+#     print("%d is even number"%n)
+# else:
+#     print("%d is odd number "%n)
+
+    # ''''elif programs'''
+# n=int(input("enter any number:"))
+# h=input("enter name:")
+# if(50<n<90):
+#     print(" {} got number of coins {} ".format(h,n))
+# elif(20<n<=50):
+#     print(" {}you got some coins  {}".format(h,n))
+# elif(10<n<=20):
+#     print("{} you got less number of coins {} ".format(h,n))
+# else:
+#     print("{} you lost coins {} ".format(h,n))
+
+# '''while loop'''
+# n=int(input('enter any number:'))
+# while(n<20):
+#     print("hi",int(n))
+#     n=n+2
